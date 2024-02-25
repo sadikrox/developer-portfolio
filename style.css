@@ -1,12 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Nav Related Style */
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 120px;
+  margin: 0 120px;
 }
 
 .nav-title {
@@ -54,15 +56,60 @@ nav a {
 /* header */
 .header {
   background-color: #fff8f3;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
-.banner-content {
-  padding: 30px 30px 30px 120px;
+.banner {
+  padding: 30px 128px 0 120px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .banner .pp {
   width: 500px;
 }
+
+.banner-greetings {
+  font-size: 45px;
+  margin-bottom: -50px;
+}
+
+.banner-title {
+  font-size: 85px;
+  margin-bottom: 10px;
+}
+
+.banner-content {
+  max-width: 700px;
+}
+
+.banner-para {
+  font-size: 18px;
+  line-height: 30px;
+}
 /* header */
+
+/* Main  */
+
+/* About Me */
+.about {
+  margin: 120px;
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 45px;
+}
+
+.section-para {
+  font-size: 20px;
+}
+/* About Me */
+
+/* Main  */
