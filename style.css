@@ -1,12 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 0 130px;
 }
 
 /* Nav Related Style */
 nav {
   display: flex;
   justify-content: space-between;
+  padding: 0 120px;
 }
 
 .nav-title {
@@ -38,8 +38,6 @@ nav a {
 }
 
 .btn-primary {
-  width: 150px;
-  height: 64px;
   font-size: 20px;
   border: 0;
   background-color: #fd6e0a;
@@ -52,3 +50,19 @@ nav a {
   color: black;
 }
 /* Nav Related Style */
+
+/* header */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner-content {
+  padding: 30px 30px 30px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .pp {
+  width: 500px;
+}
+/* header */
