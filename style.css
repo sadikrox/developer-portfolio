@@ -112,4 +112,8 @@ nav a {
 }
 /* About Me */
 
+.about-info-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 /* Main  */
